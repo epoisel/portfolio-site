@@ -134,6 +134,35 @@ a {
 	line-height: 1.25;
 }
 
+.work.toggle {
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	width: 100%;
+	max-width: 60em;
+}
+/*portfolio work sections*/
+.work {
+	display: none;
+}
+
+.item {
+	width: 100%;
+	padding: 0;
+	margin: auto 0;
+}
+
+.picture {
+	width: 100%;
+}
+
+.showcase {
+	max-width: 100%;
+	list-style: none;
+	margin: auto 0;
+	padding: 0;
+}
+/*contact section*/
 .contact {
 	font-size: 1.25em;
 	margin-bottom: 1em;
@@ -158,3 +187,4 @@ a {
     padding: 0;
     margin: auto 0;
 }
+
