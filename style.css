@@ -187,6 +187,8 @@ color: #1c1c1c;
 
 
 .showcase {
+	display: flex;
+	flex-direction: row;
 	max-width: 100%;
 	list-style: none;
 	margin: auto 0;
@@ -198,7 +200,7 @@ color: #1c1c1c;
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;
-  width: 25%;
+  width: 50%;
 }
 
 .modal {
