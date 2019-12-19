@@ -17,7 +17,7 @@ img.forEach((item) => {
   item.addEventListener("click", (event) => {
     modal.style.display = "block";
     modalImg.src = item.src;
-    captionText.innerHTML = this.alt;
+    captionText.innerHTML = item.alt;
   });
 });
 
