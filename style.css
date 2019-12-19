@@ -210,9 +210,14 @@ color: #1c1c1c;
 .picture:hover {
 	transform: scale(1.1);
 }
-
-
-
+/*.run {
+	position: absolute;
+	z-index: 1;
+	max-width: ;
+}
+.running {
+	display: none;
+}*/
 .modal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
