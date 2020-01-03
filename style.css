@@ -307,10 +307,13 @@ color: #1c1c1c;
 	line-height: 1.5;
 	background-color: var(--blk);
 	color: var(--inv);
+	width: 65%;
 }
 
-.contact p {
+.contact-text {
 	color: var(--inv);
+	margin-bottom: 0px;
+
 }
 
 .contact a {
@@ -323,5 +326,17 @@ color: #1c1c1c;
     text-align: center;
     padding: 0;
     margin: auto 0;
+    z-index: 1;
+}
+
+.email-link {
+	z-index: 1;
+	font-size: 1.0rem;
+	padding-top: 0;
+	line-height: 1.5;
+	letter-spacing: 0;
+	padding: 0px;
+	margin-right: 20px;
+	bottom: 4px;
 }
 
